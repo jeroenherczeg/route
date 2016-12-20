@@ -13,7 +13,7 @@ The JSON strategy aims to make building RESTful APIs a little easier. It is pass
 
 use Psr\Http\Message\ServerRequestInterface;
 
-$route = new League\Route\RouteCollection;
+$router = new League\Route\RouteCollection;
 
 $router->setStrategy(new League\Route\Strategy\JsonStrategy);
 
